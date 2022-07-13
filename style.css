@@ -1,0 +1,85 @@
+.body {
+  background-color: lightgrey;
+}
+
+.grey {
+  background-color: lightgrey;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+.btn-toggle-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-color: antiquewhite;
+  background-image: url("hamburger_menu.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+  cursor: pointer;
+}
+
+.nav-main {
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  z-index: 1000;
+  cursor: pointer;
+}
+.nav-main ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-left: 0;
+  overflow: hidden; /*zorgt ervoor de de tekst buiten het randje niet zichtbaar is!! */
+  visibility: hidden; /*deze kan je met Javascript weer zichtbaar maken! */
+}
+
+.nav-main ul li {
+  list-style: none;
+  line-height: 30px;
+  margin-top: 3px;
+}
+
+.nav-main ul li {
+  list-style: none;
+  line-height: 30px;
+  margin-top: 3px;
+}
+
+.nav-main ul li a {
+  display: block;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  white-space: nowrap; /*tekst springt niet naar volgende lijn. */
+  opacity: 0;
+}
+
+.nav-main ul li a:hover {
+  background-color: aquamarine;
+}
