@@ -97,4 +97,3 @@ const toggleNav = function () {
     toggleNavStatus = false;
   }
 };
-
